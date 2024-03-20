@@ -4,19 +4,21 @@
     margin: 0;
     list-style: none;
     color: white;
+    font-size: 14px; /* cambiamos valor rem, ahora 1 rem sera 14px */
     
 }
 
-.container{
-    display: flex;
+
+.contenedor > div {
+    border: 12px, solid, black;
+    width: 50px;
+    height: 20vh;
+    background-color: brown;
 }
 
 .navegacion{
-   padding: 12px;
+   background-color: green;
 
 }
 
-.text-light {
-    color: black;
-}
 
