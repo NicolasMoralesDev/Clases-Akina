@@ -10,36 +10,37 @@
 }
 
 .navegacion {
-    display: flex;
-    justify-content: center;
+
+    width: 100%;
     gap: 100px;
     background-color: green;
 
 }
-
+/* 
 .contenedor>div {
     border: 12px, solid, black;
     width: 150px;
     height: 150px;
     background-color: brown;
 }
-
+ */
 
 /* Realiza consultas sobre, el tamaño, orientacion de la pantaña.  */
 
-@media  screen and (orientation: landscape) {
+/* @media  screen and (orientation: landscape) {
     .navegacion {
         align-items: center;
         flex-direction: column;
     }
 
+}  */
+
+/* @media screen and (max-width: 767px) {
+    /* Tus estilos para celulares 
+
+    .navegacion {
+        align-items: center;
+        flex-direction: column;
+    }
 } 
-
-@media screen and (max-width: 767px) {
-    /* Tus estilos para celulares */
-
-    .navegacion {
-        align-items: center;
-        flex-direction: column;
-    }
-}
+*/
